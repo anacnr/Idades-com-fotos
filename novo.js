@@ -24,9 +24,10 @@ function Usar(){
 
     let label_month = document.querySelectorAll("label")[1];
     label_month.style.display = "block";
-
+    
     let label_year = document.querySelectorAll("label")[2];
     label_year.style.display = "block";
+    
 
     let checados = document.getElementById("sexo");
     checados.style.display = 'block'
@@ -40,7 +41,7 @@ function Usar(){
    day.name = 'data1'
    day.required = 'true'
    day.style.position = 'relative'
-   day.style.bottom = '94%'
+   day.style.bottom = '93%'
    day.style.left = '16%'
 
    let godfather_day = document.getElementById("dados")
@@ -52,8 +53,8 @@ function Usar(){
    month.name = 'data2'
    month.required = 'true'
    month.style.position = 'relative'
-   month.style.bottom = '71%'
-   month.style.left = '5%'
+   month.style.bottom = '72%'
+   month.style.left = '6%'
    
    let godfather_month = document.getElementById("dados")
    godfather_month.appendChild(month)
@@ -64,8 +65,8 @@ function Usar(){
    year.name = 'data3'
    year.required = 'true'
    year.style.position = 'relative'
-   year.style.bottom = '48%'
-   year.style.left = '-6%'
+   year.style.bottom = '49%'
+   year.style.left = '-5%'
    
    let godfather_year = document.getElementById("dados")
    godfather_year.appendChild(year)

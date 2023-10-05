@@ -41,7 +41,6 @@ header > h1{
 #dados > .anos{
     display: inline-block;
     margin-top: 5%;
-    margin-bottom: 3%;
     margin-left: 10%;
     font-size: 0.8em;
     font-weight: 500;
@@ -118,11 +117,11 @@ footer{
 .feminino , .masculino{
     display: block;
     margin: auto;
-    width: 190px;
-    height: 190px;
+    width: 175px;
+    height: 175px;
     border-radius: 50%;
     position: relative;
-    bottom: 50px;
+    bottom: 60px;
     box-shadow: 1px 2px 15px rgb(175, 149, 153);
     animation-name: fotos;
     animation-duration: 2000ms;
