@@ -32,6 +32,7 @@ function Usar(){
     checados.style.display = 'block'
     checados.style.position = 'relative'
     checados.style.bottom = '3%'
+    checados.style.top = '22pt'
 
 
    let day = document.createElement('input')
