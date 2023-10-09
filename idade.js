@@ -2228,7 +2228,7 @@ function Exibir() {
     show_button.id = 'reinicio'
     show_button.style.width = '20%'
     show_button.style.position = 'relative'
-    show_button.style.top = '90pt'
+    show_button.style.top = '140pt'
     show_button.style.backgroundColor = 'rgba(68, 57, 57, 0.944)';
     show_button.style.border = 'none'
     
