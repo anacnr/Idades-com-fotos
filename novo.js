@@ -4,7 +4,7 @@ function Usar(){
 
     let hide_button= document.querySelectorAll("button")[0]
     hide_button.style.display = 'block'
-    hide_button.style.top = '140pt'
+    hide_button.style.top = '-7pt'
 
     let foto = document.querySelector("img")
     foto.parentNode.removeChild(foto)
