@@ -91,7 +91,7 @@ h2{
     font-weight: 500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(2, 81, 81);
-    margin-top: 14%;
+    margin-top: 50px;
     text-align: center;
 }
 
@@ -214,4 +214,15 @@ footer{
     z-index: 1;
     background-color: rgba(68, 57, 57, 0.944);
     border-style: none;
+}
+
+#day , #month , #year{
+    width: 50px;
+    border-color: rgba(2, 81, 81, 0.732);
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    height: 17px;
+    position: relative;
+    top: 30pt;
 }

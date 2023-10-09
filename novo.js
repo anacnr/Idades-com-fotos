@@ -36,7 +36,7 @@ function Usar(){
 
 
    let day = document.createElement('input')
-   day.id = 'dia'
+   day.id = 'day'
    day.type = 'number'
    day.name = 'data1'
    day.required = 'true'
@@ -48,7 +48,7 @@ function Usar(){
    godfather_day.appendChild(day)
 
    let month = document.createElement('input')
-   month.id = 'mês'
+   month.id = 'month'
    month.type = 'number'
    month.name = 'data2'
    month.required = 'true'
@@ -60,7 +60,7 @@ function Usar(){
    godfather_month.appendChild(month)
 
    let year = document.createElement('input')
-   year.id = 'ano'
+   year.id = 'year'
    year.type = 'number'
    year.name = 'data3'
    year.required = 'true'
