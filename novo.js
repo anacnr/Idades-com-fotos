@@ -4,7 +4,7 @@ function Usar(){
 
     let hide_button= document.querySelectorAll("button")[0]
     hide_button.style.display = 'block'
-    hide_button.style.top = '-7pt'
+    hide_button.style.top = '140pt'
 
     let foto = document.querySelector("img")
     foto.parentNode.removeChild(foto)
@@ -36,37 +36,31 @@ function Usar(){
 
 
    let day = document.createElement('input')
-   day.id = 'day'
+   day.id = 'dia'
    day.type = 'number'
    day.name = 'data1'
    day.required = 'true'
-   day.style.position = 'relative'
-   day.style.bottom = '93%'
-   day.style.left = '16%'
+
 
    let godfather_day = document.getElementById("dados")
    godfather_day.appendChild(day)
 
    let month = document.createElement('input')
-   month.id = 'month'
+   month.id = 'mês'
    month.type = 'number'
    month.name = 'data2'
    month.required = 'true'
-   month.style.position = 'relative'
-   month.style.bottom = '72%'
-   month.style.left = '6%'
+
    
    let godfather_month = document.getElementById("dados")
    godfather_month.appendChild(month)
 
    let year = document.createElement('input')
-   year.id = 'year'
+   year.id = 'ano'
    year.type = 'number'
    year.name = 'data3'
    year.required = 'true'
-   year.style.position = 'relative'
-   year.style.bottom = '49%'
-   year.style.left = '-5%'
+
    
    let godfather_year = document.getElementById("dados")
    godfather_year.appendChild(year)
