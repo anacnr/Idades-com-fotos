@@ -13,11 +13,10 @@ function Usar(){
     frase.innerHTML = 'Preencha tudo para ver a foto!'
     frase.classList.remove('faixa')
     frase.classList.remove('texto')
-    frase.style.margin = '0%'
 
     let dive = document.getElementById("foto")
     dive.style.position = 'relative'
-    dive.style.bottom = '5%'
+    dive.style.bottom = '1%'
 
     let label_day = document.querySelectorAll("label")[0];
     label_day.style.display = "block";
@@ -32,7 +31,7 @@ function Usar(){
     let checados = document.getElementById("sexo");
     checados.style.display = 'block'
     checados.style.position = 'relative'
-    checados.style.bottom = '9%'
+    checados.style.bottom = '3%'
 
 
    let day = document.createElement('input')
