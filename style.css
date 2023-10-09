@@ -13,7 +13,7 @@ body{
 }
 
 header > h1{
-    font-size: 1.2em;
+    font-size: 2em;
     font-weight: 200;
     font-style: oblique;
     color: beige;
@@ -26,8 +26,8 @@ header > h1{
 
 #dados{
     background-color: white;
-    width: 50%;
-    height: 240px;
+    width: 40%;
+    height: 300px;
     padding: 1px;
     text-align: left;
     margin: auto;
@@ -85,7 +85,7 @@ h2{
     font-weight: 500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(2, 81, 81);
-    margin-top: 2%;
+    margin-top: 19%;
     text-align: center;
 }
 
