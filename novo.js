@@ -41,6 +41,7 @@ function Usar(){
    day.name = 'data1'
    day.required = 'true'
    day.style.display = 'flex'
+   day.style.marginBottom = '4px'
 
 
    let godfather_day = document.getElementById("dados")
@@ -52,6 +53,7 @@ function Usar(){
    month.name = 'data2'
    month.required = 'true'
    month.style.display = 'flex'
+   month.style.marginBottom = '4px'
 
    
    let godfather_month = document.getElementById("dados")
@@ -63,6 +65,7 @@ function Usar(){
    year.name = 'data3'
    year.required = 'true'
    year.style.display = 'flex'
+   year.style.marginTop = '5px'
    
    let godfather_year = document.getElementById("dados")
    godfather_year.appendChild(year)
