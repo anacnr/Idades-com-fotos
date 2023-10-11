@@ -17,7 +17,7 @@ function Usar(){
     let dive = document.getElementById("foto")
     dive.style.position = 'relative'
     dive.style.bottom = '1%'
-    dive.style.top = '3%'
+    dive.style.top = '7%'
 
     let label_day = document.querySelectorAll("label")[0];
     label_day.style.display = "block";
@@ -37,28 +37,31 @@ function Usar(){
 
 
    let day = document.createElement('input')
-   day.id = 'caixa1'
+   day.id = 'dia'
    day.type = 'number'
    day.required = 'true'
-
+   day.style.position = 'relative'
+   day.style.transform = 'translate(91px , -305px)' 
    
    let godfather_day = document.getElementById("dados")
    godfather_day.appendChild(day)
 
    let month = document.createElement('input')
-   month.id = 'caixa2'
+   month.id = 'mês'
    month.type = 'number'
    month.required = 'true'
-
+   month.style.position = 'relative'
+   month.style.transform = 'translate(43px ,-239px)'
    
    let godfather_month = document.getElementById("dados")
    godfather_month.appendChild(month)
 
    let year = document.createElement('input')
-   year.id = 'caixa3'
+   year.id = 'ano'
    year.type = 'number'
    year.required = 'true'
-   
+   year.style.position = 'relative'
+   year.style.transform = 'translate(-8px ,-172px )'
 
    let godfather_year = document.getElementById("dados")
    godfather_year.appendChild(year)
