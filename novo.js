@@ -17,6 +17,7 @@ function Usar(){
     let dive = document.getElementById("foto")
     dive.style.position = 'relative'
     dive.style.bottom = '1%'
+    dive.style.top = '3%'
 
     let label_day = document.querySelectorAll("label")[0];
     label_day.style.display = "block";
@@ -27,7 +28,7 @@ function Usar(){
     let label_year = document.querySelectorAll("label")[2];
     label_year.style.display = "block";
     
-    
+
     let checados = document.getElementById("sexo");
     checados.style.display = 'block'
     checados.style.position = 'relative'
@@ -38,7 +39,6 @@ function Usar(){
    let day = document.createElement('input')
    day.id = 'caixa1'
    day.type = 'number'
-   day.name = 'data1'
    day.required = 'true'
 
    
@@ -48,7 +48,6 @@ function Usar(){
    let month = document.createElement('input')
    month.id = 'caixa2'
    month.type = 'number'
-   month.name = 'data2'
    month.required = 'true'
 
    
@@ -58,7 +57,6 @@ function Usar(){
    let year = document.createElement('input')
    year.id = 'caixa3'
    year.type = 'number'
-   year.name = 'data3'
    year.required = 'true'
    
 
