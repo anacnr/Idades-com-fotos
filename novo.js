@@ -27,7 +27,7 @@ function Usar(){
     let label_year = document.querySelectorAll("label")[2];
     label_year.style.display = "block";
     
-
+    
     let checados = document.getElementById("sexo");
     checados.style.display = 'block'
     checados.style.position = 'relative'
@@ -36,37 +36,32 @@ function Usar(){
 
 
    let day = document.createElement('input')
-   day.id = 'dia'
+   day.id = 'caixa1'
    day.type = 'number'
    day.name = 'data1'
    day.required = 'true'
-   day.style.display = 'flex'
-   day.style.marginBottom = '4px'
 
-
+   
    let godfather_day = document.getElementById("dados")
    godfather_day.appendChild(day)
 
    let month = document.createElement('input')
-   month.id = 'mês'
+   month.id = 'caixa2'
    month.type = 'number'
    month.name = 'data2'
    month.required = 'true'
-   month.style.display = 'flex'
-   month.style.marginBottom = '4px'
 
    
    let godfather_month = document.getElementById("dados")
    godfather_month.appendChild(month)
 
    let year = document.createElement('input')
-   year.id = 'ano'
+   year.id = 'caixa3'
    year.type = 'number'
    year.name = 'data3'
    year.required = 'true'
-   year.style.display = 'flex'
-   year.style.marginTop = '5px'
    
+
    let godfather_year = document.getElementById("dados")
    godfather_year.appendChild(year)
 

@@ -2211,7 +2211,8 @@ function Exibir() {
 
     let label_year = document.querySelectorAll("label")[2];
     label_year.style.display = "none";
-
+  
+  
     day.parentNode.removeChild(day);
     month.parentNode.removeChild(month);
     year.parentNode.removeChild(year);
