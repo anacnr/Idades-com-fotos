@@ -4,13 +4,15 @@ function Usar(){
 
     let hide_button= document.querySelectorAll("button")[0]
     hide_button.style.display = 'block'
-    hide_button.style.top = '-7pt'
+    hide_button.style.top = '-29pt'
 
     let foto = document.querySelector("img")
     foto.parentNode.removeChild(foto)
 
     let frase = document.querySelector("h2")
     frase.innerHTML = 'Preencha tudo para ver a foto!'
+    frase.style.position = 'relative'
+    frase.style.transform = 'translate(10px, 10px)'
     frase.classList.remove('faixa')
     frase.classList.remove('texto')
 
@@ -41,7 +43,7 @@ function Usar(){
    day.type = 'number'
    day.required = 'true'
    day.style.position = 'relative'
-   day.style.transform = 'translate(91px , -305px)' 
+   day.style.transform = 'translate(100px , -273px)' 
    
    let godfather_day = document.getElementById("dados")
    godfather_day.appendChild(day)
@@ -51,7 +53,7 @@ function Usar(){
    month.type = 'number'
    month.required = 'true'
    month.style.position = 'relative'
-   month.style.transform = 'translate(43px ,-239px)'
+   month.style.transform = 'translate(52px ,-202px)'
    
    let godfather_month = document.getElementById("dados")
    godfather_month.appendChild(month)
@@ -61,7 +63,7 @@ function Usar(){
    year.type = 'number'
    year.required = 'true'
    year.style.position = 'relative'
-   year.style.transform = 'translate(-8px ,-172px )'
+   year.style.transform = 'translate(2px ,-129px )'
 
    let godfather_year = document.getElementById("dados")
    godfather_year.appendChild(year)
