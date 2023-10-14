@@ -149,8 +149,8 @@ footer{
 .feminino , .masculino{
     display: block;
     margin: auto;
-    width: 241px;
-    height: 241px;
+    width: 180px;
+    height: 190px;
     border-radius: 50%;
     position: relative;
     transform: translateY(-15px);
@@ -178,7 +178,7 @@ footer{
 }
 
 .texto{
-        font-size: 1em;
+        font-size: 0.8em;
         font-weight: 500;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         color: rgb(2, 81, 81);
@@ -189,7 +189,7 @@ footer{
         padding: 5px;
         position: relative;
         left: 25%;
-        bottom: 30px;
+        bottom: 25px;
         opacity: 0%;
         animation-name: faixa;
         animation-duration: 1500ms;
@@ -225,7 +225,7 @@ footer{
         padding: 5px;
         position: relative;
         left: 25%;
-        bottom: 30px;
+        bottom: 25px;
         opacity: 0%;
         animation-name: faixa;
         animation-duration: 1500ms;
