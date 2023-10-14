@@ -18,8 +18,8 @@ function Usar(){
 
     let dive = document.getElementById("foto")
     dive.style.position = 'relative'
-    dive.style.bottom = '1%'
-    dive.style.top = '7%'
+    dive.style.bottom = '0%'
+    dive.style.top = '0%'
 
     let label_day = document.querySelectorAll("label")[0];
     label_day.style.display = "block";
