@@ -4,7 +4,7 @@ function Usar(){
 
     let hide_button= document.querySelectorAll("button")[0]
     hide_button.style.display = 'block'
-    hide_button.style.top = '-19pt'
+    hide_button.style.top = '-29pt'
 
     let foto = document.querySelector("img")
     foto.parentNode.removeChild(foto)
@@ -19,7 +19,7 @@ function Usar(){
     let dive = document.getElementById("foto")
     dive.style.position = 'relative'
     dive.style.bottom = '1%'
-    dive.style.top = '-4%'
+    dive.style.top = '7%'
 
     let label_day = document.querySelectorAll("label")[0];
     label_day.style.display = "block";

@@ -149,11 +149,11 @@ footer{
 .feminino , .masculino{
     display: block;
     margin: auto;
-    width: 180px;
-    height: 190px;
+    width: 190px;
+    height: 185px;
     border-radius: 50%;
     position: relative;
-    transform: translateY(-15px);
+    bottom: 0px;
     box-shadow: 1px 2px 15px rgb(175, 149, 153);
     animation-name: fotos;
     animation-duration: 2000ms;
