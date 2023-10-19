@@ -12,7 +12,7 @@ function Usar(){
     let frase = document.querySelector("h2")
     frase.innerHTML = 'Preencha tudo para ver a foto!'
     frase.classList.remove('faixa')
-    //frase.classList.remove('texto')
+    frase.classList.remove('texto')
 
     let dive = document.getElementById("foto")
     dive.style.position = 'relative'
