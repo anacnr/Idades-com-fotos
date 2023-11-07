@@ -4,15 +4,17 @@ function Usar(){
 
     let hide_button= document.querySelectorAll("button")[0]
     hide_button.style.display = 'block'
-    hide_button.style.top = '-29pt'
+    hide_button.style.top = '-13pt'
 
     let foto = document.querySelector("img")
     foto.parentNode.removeChild(foto)
 
+    
     let frase = document.querySelector("h2")
     frase.innerHTML = 'Preencha tudo para ver a foto!'
     frase.classList.remove('faixa')
     frase.classList.remove('texto')
+    
 
     let dive = document.getElementById("foto")
     dive.style.position = 'relative'
